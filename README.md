@@ -4,7 +4,10 @@
 ## Basic
 * Prim's
 * Kruskal's
-* Floyd
+* Floyd Warshall's
+
+* Merge sort
+* Quick sort
 
 ## Beakjoon
 * 1000
