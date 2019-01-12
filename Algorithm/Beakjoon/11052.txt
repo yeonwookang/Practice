@@ -1,0 +1,51 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+//import java.util.Scanner;
+
+public class Main {
+
+	// 붕어빵
+	public static void main(String args[]) throws IOException {
+		
+		// 붕어빵의 개수
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int count = Integer.parseInt(br.readLine());
+		
+		// 붕어빵의 세트 숫자별 가격
+		String[] prices = new String[count];
+		String set_prices = br.readLine();
+		// 가격 배열에 띄어쓰기로 구분해서 값을 삽입
+		prices = set_prices.split("\\s");
+		
+		// 다시 숫자 배열로 집어 넣기
+		int price[] = new int[count+1];
+		for(int i = 1; i <= count; i++) {
+			price[i] = Integer.parseInt(prices[i-1]);
+		}
+		
+		// 개수별 판매 가능한 최대 수익을 넣을 배열
+		int D[] = new int[count+1];
+		
+		// 1개일 때는 어차피 하나 밖에 판매하지 못한다
+		D[1] = price[1]; 
+		//최대값 구하기 
+		for(int j = 1; j <= count; j++) { // 전체 갯수에 대해 반복
+			for(int k = 1; k <= j; k++) { // D[N] 하나를 구하는 반복문
+				if(D[j] > D[j-k] + price[k]) { // 둘 중 최대값을 저장한다
+					D[j] = D[j];
+				} else {
+					D[j] = D[j-k] + price[k];  // 마지막 사람에게 k개를 판것 전체 j개에 대해
+				}
+			}
+		}
+		
+		System.out.println(D[count]);
+	}
+	
+
+	
+	// 암호코드
+
+}
