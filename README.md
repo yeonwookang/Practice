@@ -1,11 +1,12 @@
 ﻿# Practice
-알고리즘 공부
 
 ## Basic
+### 그래프 탐색
 * Prim's
 * Kruskal's
 * Floyd Warshall's
 
+### 정렬
 * Merge sort
 * Quick sort
 
