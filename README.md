@@ -1,6 +1,4 @@
-﻿# Practice
-
-## Basic
+﻿## Basic
 ### 그래프 탐색
 * Prim's
 * Kruskal's
