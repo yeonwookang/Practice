@@ -1,8 +1,8 @@
 ﻿## Basic (Algorithm assignment)
 ### 그래프 탐색
-* Prim's
-* Kruskal's
-* Floyd Warshall's
+* Prim's algorithm
+* Kruskal's algorithm
+* Floyd Warshall algorithm
 
 ### 정렬
 * Merge sort
