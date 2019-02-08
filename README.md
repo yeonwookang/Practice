@@ -8,7 +8,7 @@
 * Merge sort
 * Quick sort
 
-## Beakjoon
+## Beakjoon Algorithm
 * 1000
 * 1001
 * 1008
