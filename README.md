@@ -24,3 +24,9 @@
 * 11052 (구 붕어빵)
 * 11654
 * 11656
+
+# JH Algorithm Assignment
+* Q1
+* Q2 - a
+* Q2 - b (recursion) (X)
+* Q3
