@@ -26,7 +26,10 @@
 * 11656
 
 # JH Algorithm Assignment
-* Q1
-* Q2 - a
-* Q2 - b (recursion) (X)
-* Q3
+* Project 1st
+- Q1
+- Q2 - a
+- Q2 - b (recursion) (X)
+- Q3
+
+* Project 2nd
